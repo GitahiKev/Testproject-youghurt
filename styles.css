@@ -1,0 +1,732 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+
+.front  {    
+background-image: linear-gradient(45deg, #00F490, #00BBC9);
+background-size: cover;
+background-repeat: no-repeat;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+}
+
+.container-logo{
+  display: flex;
+  flex: row;
+  justify-content: space-between;
+  width:70%;
+  padding: 0px;
+  margin: 30px auto;
+}
+.logo {
+  display: flex;
+  height: 100px;
+}
+
+  .buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end; 
+    }
+
+
+
+.navbutton{
+    border-radius: 5px;
+    background-color:transparent;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    font-size: 16px;
+    border:solid;
+    text-align: center;
+    cursor: pointer;
+    margin: 20px;
+  }
+
+.rounded-corner-button {
+    border-radius: 5px;
+    background-color:transparent;
+    color: #FFFFFF;
+    width: 120px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border:solid;
+    text-align: center;
+    cursor: pointer;
+  }
+
+.Top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0px auto;
+  padding: 5px;
+  width: 60%;
+
+}
+.Slogan {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 400px;
+  height:300px;
+  margin: 0px;
+  font-size: 20px;
+  color: white;
+}
+
+.imageone {
+  display: flex;
+  justify-content: flex-end;  
+}
+
+h1 {
+  color: #FFFFFF;
+  font-size: 60px;
+  font-family: fantasy; 
+}
+.Banner {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 0px;
+  margin: 0 auto;
+  width: 70%;
+}
+
+.imagetwo {
+  width: 400px;
+  height: 320px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  margin: 10px;
+}
+
+.Message {
+  background-color: white;
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: center;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  font-size: 20px;
+  height: 320px;
+  width: 60%;
+  margin:10px;
+}
+
+.ceomessage {
+  display: flex;
+  margin: 0 auto;
+  padding: 10px;
+}
+.heading {
+  color: #00F490;
+  font-size: 30px;
+  padding:20px;
+  margin: 0% auto;
+}
+
+.ad{
+  display: flex;
+  flex-direction: row;
+  padding: 40px;
+  margin: 0 auto;
+  width: 70%;
+}
+.nav-container{
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  margin: 0 auto;
+  width: 60%;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 0;
+    justify-content: flex-start;
+    width: 400px;
+  }
+
+  .nav-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+
+  .name {
+    color: white;
+    font-size: 20px;
+    justify-content: flex-start; 
+  }
+
+  .nav-item a {
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+  }
+
+  .imagethree {
+    display: flex;
+    justify-content: flex-end;
+  
+
+  }
+
+
+
+
+/* small screen*/
+
+@media (max-width: 400px){
+  .front  {    
+    background-image: linear-gradient(45deg, #00F490, #00BBC9);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    }
+    
+    .container-logo{
+      display: flex;
+      flex: row;
+      justify-content: space-between;
+      width:70%;
+      padding: 0px;
+      margin: 30px auto;
+    }
+    .logo {
+      display: flex;
+      height: 100px;
+    }
+    
+      .buttons {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end; 
+        }
+    
+    
+    
+    .navbutton{
+        border-radius: 5px;
+        background-color:transparent;
+        color: #FFFFFF;
+        padding: 10px 20px;
+        font-size: 16px;
+        border:solid;
+        text-align: center;
+        cursor: pointer;
+        margin: 20px;
+      }
+    
+    .rounded-corner-button {
+        border-radius: 5px;
+        background-color:transparent;
+        color: #FFFFFF;
+        width: 120px;
+        padding: 10px 20px;
+        font-size: 16px;
+        border:solid;
+        text-align: center;
+        cursor: pointer;
+      }
+    
+    .Top {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin: 0px auto;
+      padding: 5px;
+      width: 60%;
+    
+    }
+    .Slogan {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      width: 400px;
+      height:300px;
+      margin: 0px;
+      font-size: 20px;
+      color: white;
+    }
+    
+    .imageone {
+      display: flex;
+      justify-content: flex-end;  
+    }
+    
+    h1 {
+      color: #FFFFFF;
+      font-size: 60px;
+      font-family: fantasy; 
+    }
+    .Banner {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+      padding: 0px;
+      margin: 0 auto;
+      width: 70%;
+    }
+    
+    .imagetwo {
+      width: 400px;
+      height: 320px;
+      border-top-left-radius: 20px;
+      border-bottom-left-radius: 20px;
+      margin: 10px;
+    }
+    
+    .Message {
+      background-color: white;
+      display:flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      text-align: center;
+      border-top-right-radius: 20px;
+      border-bottom-right-radius: 20px;
+      font-size: 20px;
+      height: 320px;
+      width: 60%;
+      margin:10px;
+    }
+    
+    .ceomessage {
+      display: flex;
+      margin: 0 auto;
+      padding: 10px;
+    }
+    .heading {
+      color: #00F490;
+      font-size: 30px;
+      padding:20px;
+      margin: 0% auto;
+    }
+    
+    .ad{
+      display: flex;
+      flex-direction: row;
+      padding: 40px;
+      margin: 0 auto;
+      width: 70%;
+    }
+    .nav-container{
+      display: flex;
+      flex-direction: row;
+      padding: 10px;
+      margin: 0 auto;
+      width: 60%;
+    }
+    
+    .nav-list {
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+        padding: 0;
+        justify-content: flex-start;
+        width: 400px;
+      }
+    
+      .nav-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+      }
+    
+    
+      .name {
+        color: white;
+        font-size: 20px;
+        justify-content: flex-start; 
+      }
+    
+      .nav-item a {
+        color: white;
+        text-decoration: none;
+        font-size: 40px;
+      }
+    
+      .imagethree {
+        display: flex;
+        justify-content: flex-end;
+      
+    
+      }
+
+}
+  
+
+/* Medium Screens */
+
+@media (max-width: 900px) and (min-width: 401px) {
+  .front  {    
+    background-image: linear-gradient(45deg, #00F490, #00BBC9);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    }
+    
+    .container-logo{
+      display: flex;
+      flex: row;
+      justify-content: space-between;
+      width:70%;
+      padding: 0px;
+      margin: 30px auto;
+    }
+    .logo {
+      display: flex;
+      height: 100px;
+    }
+    
+      .buttons {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end; 
+        }
+    
+    
+    
+    .navbutton{
+        border-radius: 5px;
+        background-color:transparent;
+        color: #FFFFFF;
+        padding: 10px 20px;
+        font-size: 16px;
+        border:solid;
+        text-align: center;
+        cursor: pointer;
+        margin: 20px;
+      }
+    
+    .rounded-corner-button {
+        border-radius: 5px;
+        background-color:transparent;
+        color: #FFFFFF;
+        width: 120px;
+        padding: 10px 20px;
+        font-size: 16px;
+        border:solid;
+        text-align: center;
+        cursor: pointer;
+      }
+    
+    .Top {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin: 0px auto;
+      padding: 5px;
+      width: 60%;
+    
+    }
+    .Slogan {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      width: 400px;
+      height:300px;
+      margin: 0px;
+      font-size: 20px;
+      color: white;
+    }
+    
+    .imageone {
+      display: flex;
+      justify-content: flex-end;  
+    }
+    
+    h1 {
+      color: #FFFFFF;
+      font-size: 60px;
+      font-family: fantasy; 
+    }
+    .Banner {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+      padding: 0px;
+      margin: 0 auto;
+      width: 70%;
+    }
+    
+    .imagetwo {
+      width: 400px;
+      height: 320px;
+      border-top-left-radius: 20px;
+      border-bottom-left-radius: 20px;
+      margin: 10px;
+    }
+    
+    .Message {
+      background-color: white;
+      display:flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      text-align: center;
+      border-top-right-radius: 20px;
+      border-bottom-right-radius: 20px;
+      font-size: 20px;
+      height: 320px;
+      width: 60%;
+      margin:10px;
+    }
+    
+    .ceomessage {
+      display: flex;
+      margin: 0 auto;
+      padding: 10px;
+    }
+    .heading {
+      color: #00F490;
+      font-size: 30px;
+      padding:20px;
+      margin: 0% auto;
+    }
+    
+    .ad{
+      display: flex;
+      flex-direction: row;
+      padding: 40px;
+      margin: 0 auto;
+      width: 70%;
+    }
+    .nav-container{
+      display: flex;
+      flex-direction: row;
+      padding: 10px;
+      margin: 0 auto;
+      width: 60%;
+    }
+    
+    .nav-list {
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+        padding: 0;
+        justify-content: flex-start;
+        width: 400px;
+      }
+    
+      .nav-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+      }
+    
+    
+      .name {
+        color: white;
+        font-size: 20px;
+        justify-content: flex-start; 
+      }
+    
+      .nav-item a {
+        color: white;
+        text-decoration: none;
+        font-size: 40px;
+      }
+    
+      .imagethree {
+        display: flex;
+        justify-content: flex-end;
+      
+    
+      }
+
+}
+
+
+/* large Screen*/
+
+@media (min-width: 901px) {
+  .front  {    
+    background-image: linear-gradient(45deg, #00F490, #00BBC9);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    }
+    
+    .container-logo{
+      display: flex;
+      flex: row;
+      justify-content: space-between;
+      width:70%;
+      padding: 0px;
+      margin: 30px auto;
+    }
+    .logo {
+      display: flex;
+      height: 100px;
+    }
+    
+      .buttons {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end; 
+        }
+    
+    
+    
+    .navbutton{
+        border-radius: 5px;
+        background-color:transparent;
+        color: #FFFFFF;
+        padding: 10px 20px;
+        font-size: 16px;
+        border:solid;
+        text-align: center;
+        cursor: pointer;
+        margin: 20px;
+      }
+    
+    .rounded-corner-button {
+        border-radius: 5px;
+        background-color:transparent;
+        color: #FFFFFF;
+        width: 120px;
+        padding: 10px 20px;
+        font-size: 16px;
+        border:solid;
+        text-align: center;
+        cursor: pointer;
+      }
+    
+    .Top {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin: 0px auto;
+      padding: 5px;
+      width: 60%;
+    
+    }
+    .Slogan {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      width: 400px;
+      height:300px;
+      margin: 0px;
+      font-size: 20px;
+      color: white;
+    }
+    
+    .imageone {
+      display: flex;
+      justify-content: flex-end;  
+    }
+    
+    h1 {
+      color: #FFFFFF;
+      font-size: 60px;
+      font-family: fantasy; 
+    }
+    .Banner {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+      padding: 0px;
+      margin: 0 auto;
+      width: 70%;
+    }
+    
+    .imagetwo {
+      width: 400px;
+      height: 320px;
+      border-top-left-radius: 20px;
+      border-bottom-left-radius: 20px;
+      margin: 10px;
+    }
+    
+    .Message {
+      background-color: white;
+      display:flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      text-align: center;
+      border-top-right-radius: 20px;
+      border-bottom-right-radius: 20px;
+      font-size: 20px;
+      height: 320px;
+      width: 60%;
+      margin:10px;
+    }
+    
+    .ceomessage {
+      display: flex;
+      margin: 0 auto;
+      padding: 10px;
+    }
+    .heading {
+      color: #00F490;
+      font-size: 30px;
+      padding:20px;
+      margin: 0% auto;
+    }
+    
+    .ad{
+      display: flex;
+      flex-direction: row;
+      padding: 40px;
+      margin: 0 auto;
+      width: 70%;
+    }
+    .nav-container{
+      display: flex;
+      flex-direction: row;
+      padding: 10px;
+      margin: 0 auto;
+      width: 60%;
+    }
+    
+    .nav-list {
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+        padding: 0;
+        justify-content: flex-start;
+        width: 400px;
+      }
+    
+      .nav-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+      }
+    
+    
+      .name {
+        color: white;
+        font-size: 20px;
+        justify-content: flex-start; 
+      }
+    
+      .nav-item a {
+        color: white;
+        text-decoration: none;
+        font-size: 40px;
+      }
+    
+      .imagethree {
+        display: flex;
+        justify-content: flex-end;
+      
+    
+      }
+
+}
